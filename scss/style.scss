@@ -1,0 +1,43 @@
+.menu {
+  background: linear-gradient(to left, #000000, #3d3d3d);
+}
+
+.intro-section {
+  background: linear-gradient(to left, #000000, #3d3d3d);
+  padding: 12rem 0 0 0;
+}
+
+.display-2--description {
+  font-size: 1.4rem;
+}
+.section-info {
+  background: linear-gradient(to left, #000000, #3d3d3d);
+  padding-top: 15rem;
+}
+
+.img-box img {
+  animation: from-right 1.5s ease;
+}
+
+/*ANIMACION APARECER DESDE LA DERECHA*/
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*ESTILOS FOOTER*/
+
+.footer-sm {
+  background-color: #000000;
+}
+
+.footer-sm a i {
+  font-size: 1rem;
+}
